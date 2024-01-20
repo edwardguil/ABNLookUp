@@ -1,0 +1,16 @@
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.result-card-header col{
+    background-color:  blue;
+    width:20px;
+    height:20px;
+}
+
