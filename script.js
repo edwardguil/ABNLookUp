@@ -33,3 +33,9 @@ function search() {
     }
 }
 
+
+document.querySelector('.arrow-button').addEventListener('click', function() {
+    console.log('Button clicked!');
+    // Add show result 
+  });
+

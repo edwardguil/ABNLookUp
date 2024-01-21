@@ -9,61 +9,70 @@
 </head>
 <body>
     <section id="widget-container">
+
         <section id="search-container">
             <input type="text" id="search-input" placeholder="Search ABN">
             <button id="search-button" onclick="search()">Search</button>
         </section>
+
         <section id="result-container">
             <div class="result-card">
                 <div class="result-card-header">
-                    <div class="col ">
-                        <div class="row top abn">
+                    <div class="col">
+                        <div class="row-top-abn">
                             <h1>12312312</h1>
                         </div>
-                        <div class="row bottom status">
+
+                        <div class="row-bottom-status">
                             <div class="col">
-                                <div class="circle"></div>
+                                <div class="circle">o</div>
                             </div>
                             <div class="col">
                                 <p>Active</p>
                             </div>
                         </div>
                     </div>
+
                     <div class="col">
-                        <div class="row top entity">
+                        <div class="row-top-entity">
                             <h1>IWT CONSULTING</p>
                         </div>
-                        <div class="row bottom business">
+                        <div class="row-bottom-business">
                             <p>A1CRM</p>
                         </div>
                     </div>
+
                     <div class="col">
                         <div class="col">
-                            <div class="row top state">
+                            <div class="row-top-state">
                                 <p>QLD</p>
                             </div>
-                            <div class="row bottom postcode">
+                            <div class="row-bottom-postcode">
                                 <p>4122</p>
                             </div>
                         </div>
+
                         <div class="col">
-                            <div class="row mid map">
-                                <svg href="map"></svg>
+                            <div class="row-mid-map">
+                                <iframe src="images/map.svg"></iframe>
                             </div>
-                        </div>    
+                        </div>
                     </div>
                     
                     <div class="col">
-                        <div class="row mid button">
-                            <button></button>
+                        <div class="row-mid-button">
+                                <button class="arrow-button">
+                                    <img src="images/right-arrow.svg" alt="Right arrow button"></img>
+                                </button>
                         </div>
-                        
                     </div>
+
                 </div>
-        </div>
+            </div>
         </section>
+
         <section id="result-card-dropdown">
-            <div class="row">
+            <div id ="result-separator" class="row">
                 <div class="col">
                     <p>Entity Name:</p>
                 </div>
@@ -73,15 +82,17 @@
                 <div class="col">
                 </div>
             </div>
-            <div class="row">_________________________</div>
-            <div class="row">
+            
+            <div id ="result-separator" class="row">
                 <div class="col">
                     <p>ABN Status:</p>
                 </div>
-                <div class="col"></div>
+                <div id="" class="col">
+                    
+                </div>
                 <div class="col"></div>
             </div>
-            <div class="row">
+            <div id ="result-separator" class="row">
                 <div class="col">
                     <p>Entity Type:</p>
                 </div>
