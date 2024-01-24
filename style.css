@@ -15,10 +15,7 @@
     flex-direction: row;
 }
 
-.row-top-abn {
-    display: flex;
-    flex-direction: row;
-}
+
 
 #result-separator {
     display: flex;
@@ -42,7 +39,7 @@ iframe {
     height: 30px;
 }
 
-.row-mid-button .arrow-button {
+.arrow-button {
     border:none;
     background-color: aquamarine;
     width: 32px;
@@ -53,3 +50,51 @@ iframe {
     background-color: aliceblue;
 }
 
+#widget-container{
+    width:789px;
+    border: 1px solid black;
+}
+
+#result-container{
+    border: 1px solid black;
+    background-color: bisque;
+    
+}
+
+.result-card {
+    width:769px;
+    height:106px;
+    border:1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+
+.result-card-header .col{
+    background-color: aquamarine;
+    margin:auto;
+    height:100%;
+}
+
+.row-top {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row-wrap;
+    background-color:blanchedalmond;
+    height:auto;
+    margin:0 0 auto 0;
+    font-size: 16px;
+    font-weight: 900;
+    color:black;
+
+
+}
+.row-bottom {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row-wrap;
+    background-color:bisque;
+    font-size: 14px;
+    height:auto;
+
+}
